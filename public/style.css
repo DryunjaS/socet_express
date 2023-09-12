@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right{
+    margin: 10px 0 0 10px;
+    width: 85vw;
+    min-height: 85vh;
+    flex-basis: 65%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+}
+.right{
+    flex-basis: 30%;
+    margin: 10px 20px 0 10px;
+
+}
+.right_container{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    margin-left: 10%;
+}
+.authorization{
+    margin: 0 auto;
+}
+.add_user{
+    border-radius: 5px;
+    background-color: rgb(55, 151, 247);
+    padding: 5px 10px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+.add_user:hover{
+    scale: 1.02;
+    transition: all 0.6s;
+}
+#nicname{
+    height: 20px;
+}
+/* -----Ввод сообщения------------------------------------ */
+.input_user{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+}
+#input_message{
+    flex-basis: 85%;
+    height: 30px;
+    border: 0;
+    margin: 5px 0 0 5px;
+    outline:none;
+}
+.message{
+    line-height: 30px;
+    background-color: rgb(55, 151, 247);
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.6s;
+    border-radius: 10px;
+}
+.message:hover{
+    scale: 1.04;
+}
+/* ----------Поля-------------------- */
+.users{
+    display: flex;
+    justify-content: space-between;
+}
+.d_none{
+    display: none;
+}
+/* ---Регистрация-------------------------- */
+.registration{
+    justify-content: center;
+}
+.registration_r{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-top: 3%;
+}
+.registration_r h3{
+    font-size: 29px;
+    margin: 30% 0 10% 0; 
+}
+.registration_l{
+    display: none;
+}
+/* ------li--------------------------- */
+#ul_1{
+    width: 100%;
+}
+.li_2 {
+    list-style:decimal;
+    margin: 10px;
+}
+
+.li_1{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    width: 100%;
+    margin-top: 10px;
+}
+.user_elem{
+    width: max-content;
+    padding: 5px 15px;
+}
+.fio{
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.text_user{
+    margin-left: 10px;
+    max-width: 300px;
+    word-break:break-all;
+
+}
+.time{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.this_user{
+    color: red;
+}
+/* ---------Сообщения--------------------------- */
+.li_my{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.li_other{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.my_message{
+    border-radius: 10px;
+    background-color:rgb(0, 208, 255);
+    margin-right: 40px;
+}
+.other_message{
+    border-radius: 10px;
+    background-color:rgb(203, 203, 203);
+}
+/* -------------------------- */
+.tail{
+    position:absolute;
+    bottom:0px;
+    right:26px;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    background-color:rgb(0, 208, 255);
+}
+.tail_2{
+    position:absolute;
+    bottom:-2px;
+    right:15px;
+    border-radius: 50%;
+    width: 25px;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+}
+.tail_3{
+    position:absolute;
+    bottom:0px;
+    left:-15px;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    background-color:rgb(203, 203, 203);
+}
+.tail_4{
+    position:absolute;
+    bottom:0px;
+    left:-25px;
+    border-radius: 50%;
+    width: 25px;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+}

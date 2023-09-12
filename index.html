@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="cdn.socket.io_4.6.0_socket.io.min.js"></script>
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+    <title>Socket Express</title>
+</head>
+<body>
+    <dic class="container registration">
+        <div class="left registration_l">
+            <h3>Чат</h3>
+            <div class="users d_none">
+                <ul id="ul_1"></ul>
+            </div>
+        </div>
+        <div class="right registration_r">
+            <div class="right_container">
+                <h3 id="list_user">Авторизация</h3>
+                <div class="users_list">
+                    <ul id="ul_2"></ul>
+                </div>
+                <div class="authorization">
+                    <input type="text" id="nicname">
+                    <div class="add_user">Войти</div>
+                </div>
+            </div>
+        </div>
+    </dic>
+    <div class="input_user d_none">
+        <input type="text" id="input_message">
+        <div class="message">Отправить</div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
